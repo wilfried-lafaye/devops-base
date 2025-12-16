@@ -1,0 +1,16 @@
+# System
+.DS_Store
+.checkpoints/
+.gemini/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Keys and Secrets
+*.key
+*.pem
+*_accessKeys.csv
+user-*_accessKeys.csv
+*_credentials.csv
